@@ -36,11 +36,11 @@
 </head>
 
 <body class="font-manrope">
-    <header class="container mx-auto">
+    <header class="container mx-auto p-3">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
                 <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <div tabindex="0" role="button" class="btn btn-ghost pl-0 lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -74,31 +74,41 @@
         </div>
         <!-- crousel section -->
         <div class="carousel w-full lg:h-[550px]">
-            <div id="slide1" class="carousel-item relative w-full">
+            <div id="slide1" class="carousel-item relative w-full ">
                 <img src="Images/1.png" class="w-full" />
                 <div
-                    class="absolute flex transform -translate-y-1/2 left-[40%] lg:left-5 right-5 top-[85%] lg:top-[90%]">
+                    class="absolute flex transform -translate-y-1/2 left-[37%] lg:left-5 right-5 top-[80%] lg:top-[90%]">
                     <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
                     <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                </div>
+                <div class="absolute lg:block hidden p-8 w-1/2 rounded-2xl top-[70%] left-[48%] text-white bg-black">
+                    <h4 class="font-bold text-2xl">Meet all the heroes from the field</h4>
+                    <p>Hockey is a fast-paced and exciting team sport played on a rectangular ice rink or a field, depending on the variant of the game.  </p>
                 </div>
             </div>
             <div id="slide2" class="carousel-item relative w-full">
                 <img src="Images/1.png" class="w-full" />
                 <div
-                    class="absolute flex transform -translate-y-1/2 left-[40%] lg:left-5 right-5 top-[85%] lg:top-[90%]">
+                    class="absolute transform -translate-y-1/2 left-[37%] lg:left-5 right-5 top-[80%] lg:top-[90%]">
                     <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
                     <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
                 </div>
+                <div class="absolute lg:block hidden p-8 w-1/2 rounded-2xl top-[70%] left-[48%] text-white bg-black">
+                    <h4 class="font-bold text-2xl">Meet all the heroes from the field</h4>
+                    <p>Hockey is a fast-paced and exciting team sport played on a rectangular ice rink or a field, depending on the variant of the game.  </p>
+                </div>
             </div>
         </div>
+        <div class="block lg:hidden p-8 w-full rounded-2xl text-white bg-black">
+            <h4 class="font-bold text-2xl">Meet all the heroes from the field</h4>
+            <p>Hockey is a fast-paced and exciting team sport played on a rectangular ice rink or a field, depending on the variant of the game.  </p>
+        </div>
     </header>
-    <main class="container mx-auto">
+    <main class="container mx-auto p-3">
         <!-- professional hockeys club -->
-        <section class="text-center mt-20">
+        <section class="text-center mt-10">
             <h3 class="text-4xl font-extrabold mb-6">Professional Hockeys Club</h3>
-            <p class="font-medium mb-6 ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
-                dolor.
-                Purus urna in sit nullam proin. </p>
+            <p class="font-medium mb-6 ">There are several forms of hockey, including ice hockeyfield hockey, and street hockey, each with its own set of rules and characteristics. </p>
             <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
                 <div class="card bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
@@ -106,7 +116,7 @@
                     </figure>
                     <div class="card-body items-center text-center">
                         <h2 class="card-title">Prayer Facility</h2>
-                        <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                        <p>Players wear protective gear, including helmets.</p>
 
                     </div>
                 </div>
@@ -116,7 +126,7 @@
                     </figure>
                     <div class="card-body items-center text-center">
                         <h2 class="card-title">Experienced Coach</h2>
-                        <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                        <p>pads, gloves, and skates. The game is played with a hard rubber puck.</p>
 
                     </div>
                 </div>
@@ -126,7 +136,7 @@
                     </figure>
                     <div class="card-body items-center text-center">
                         <h2 class="card-title">Senior Player</h2>
-                        <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                        <p>Ice hockey is played on an ice rink divided into three zones.</p>
 
                     </div>
                 </div>
@@ -136,7 +146,7 @@
                     </figure>
                     <div class="card-body items-center text-center">
                         <h2 class="card-title">Training Ground</h2>
-                        <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                        <p>Each team typically consists of six players on the ice at a time.</p>
 
                     </div>
                 </div>
@@ -145,9 +155,7 @@
         <!-- program section -->
         <section class="mt-32 mb-32">
             <h3 class="text-4xl font-extrabold mb-6 text-center">Program section</h3>
-            <p class="font-medium mb-6 text-center ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-                turpis placerat dolor.
-                Purus urna in sit nullam proin. </p>
+            <p class="font-medium mb-6 text-center ">Many communities and sports organizations have hockey programs designed to introduce and develop young players' skills. </p>
             <div class="grid grid-cols-1 gap-6">
                 <!-- program 1 and 2 -->
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -156,10 +164,7 @@
                         style="background-image: linear-gradient(#13131880, #13131880), url(Images/2.png);">
                         <div class="space-y-6">
                             <h3 class="font-extrabold text-4xl text-white">Junior Program</h3>
-                            <p class="font-medium text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis.
-                                Elit elit
-                                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
-                                congue sed et in.</p>
+                            <p class="font-medium text-white">Professional hockey programs refer to organized leagues and teams at the highest level of competition.</p>
                             <button class="btn bg-btn-color text-white border-none outline-none">Register Now!</button>
                         </div>
                     </div>
@@ -168,11 +173,7 @@
                             style="background-image: linear-gradient(#13131880, #13131880), url(Images/3.png);">
                             <div class="space-y-6">
                                 <h3 class="font-extrabold text-4xl text-white">Teenager Program</h3>
-                                <p class="font-medium text-white">Dolor sit amet consectetur. Ut urna diam quis
-                                    sagittis. Elit elit
-                                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla.
-                                    Tortor
-                                    congue sed et in.</p>
+                                <p class="font-medium text-white">Hockey programs can also encompass training and development initiatives for players at various skill levels.</p>
                                 <button class="btn bg-btn-color text-white border-none outline-none">Register
                                     Now!</button>
                             </div>
@@ -185,10 +186,7 @@
                     style="background-image: linear-gradient(#13131880, #13131880), url(Images/4.png);">
                     <div class="space-y-6 max-w-lg">
                         <h3 class="font-extrabold text-4xl text-white">Professional Program</h3>
-                        <p class="font-medium text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
-                            elit
-                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
-                            congue sed et in.</p>
+                        <p class="font-medium text-white">Some hockey programs focus on community outreach, using the sport to promote health, wellness, and community engagement.</p>
                         <button class="btn bg-btn-color text-white border-none outline-none">Register Now!</button>
                     </div>
                 </div>
@@ -196,13 +194,11 @@
         </section>
         <!-- Our new product section -->
         <section class="mb-32">
-            <h3 class="text-4xl font-extrabold mb-6 text-center">Program section</h3>
-            <p class="font-medium mb-6 text-center ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-                turpis placerat dolor.
-                Purus urna in sit nullam proin. </p>
+            <h3 class="text-4xl font-extrabold mb-6 text-center">Our New Product</h3>
+            <p class="font-medium mb-6 text-center "> I can provide you with some general ideas and trends related to new products in the field of hockey equipment. </p>
             <!-- card section 1 to 6 -->
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
-                <div class="card flex-col lg:flex-row lg:card-side bg-base-100 shadow-xl p-6">
+                <div class="card flex-col lg:flex-row lg:card-side border divide-solid border-[#1313181a] bg-base-100 shadow-xl p-6">
                     <figure><img class="max-w-[50%] lg:max-w-full" src="Images/5.png" alt="image-1" /></figure>
                     <div class="card-body">
                         <div class="flex gap-4">
@@ -219,8 +215,8 @@
                                 <div>200</div>
                             </div>
                         </div>
-                        <h2 class="card-title font-extrabold">World Cup Flags Football</h2>
-                        <p class="font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <h2 class="card-title font-extrabold">World Cup Tshirt</h2>
+                        <p class="font-medium">This Tshirt only made for you only you. </p>
                         <div class="flex flex-col lg:flex-row justify-between gap-5">
                             <div>
                                 <h4 class="text-btn-color font-extrabold">Price - $22.00</h4>
@@ -231,7 +227,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card flex-col lg:flex-row lg:card-side bg-base-100 shadow-xl p-6">
+                <div class="card flex-col lg:flex-row lg:card-side border divide-solid border-[#1313181a] bg-base-100 shadow-xl p-6">
                     <figure><img class="max-w-[50%] lg:max-w-full" src="Images/6.png" alt="image-1" /></figure>
                     <div class="card-body">
                         <div class="flex gap-4">
@@ -249,7 +245,7 @@
                             </div>
                         </div>
                         <h2 class="card-title font-extrabold">World Cup Flags Football</h2>
-                        <p class="font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <p class="font-medium">This is best football in the world. </p>
                         <div class="flex flex-col lg:flex-row justify-between gap-5">
                             <div>
                                 <h4 class="text-btn-color font-extrabold">Price - $22.00</h4>
@@ -260,7 +256,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card flex-col lg:flex-row lg:card-side bg-base-100 shadow-xl p-6">
+                <div class="card flex-col lg:flex-row lg:card-side border divide-solid border-[#1313181a] bg-base-100 shadow-xl p-6">
                     <figure><img class="max-w-[50%] lg:max-w-full" src="Images/7.png" alt="image-1" /></figure>
                     <div class="card-body">
                         <div class="flex gap-4">
@@ -278,7 +274,7 @@
                             </div>
                         </div>
                         <h2 class="card-title font-extrabold">Cap For Hockeys</h2>
-                        <p class="font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <p class="font-medium">This Yellow cap only for you. only you. </p>
                         <div class="flex flex-col lg:flex-row justify-between gap-5">
                             <div>
                                 <h4 class="text-btn-color font-extrabold">Price - $22.00</h4>
@@ -289,7 +285,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card flex-col lg:flex-row lg:card-side bg-base-100 shadow-xl p-6">
+                <div class="card flex-col lg:flex-row lg:card-side border divide-solid border-[#1313181a] bg-base-100 shadow-xl p-6">
                     <figure><img class="max-w-[50%] lg:max-w-full" src="Images/8.png" alt="image-1" /></figure>
                     <div class="card-body">
                         <div class="flex gap-4">
@@ -306,8 +302,8 @@
                                 <div>200</div>
                             </div>
                         </div>
-                        <h2 class="card-title font-extrabold">World Cup Flags Football</h2>
-                        <p class="font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <h2 class="card-title font-extrabold">World Cup Blue Tshirt</h2>
+                        <p class="font-medium">This Tshirt only for you. this color is blue. </p>
                         <div class="flex flex-col lg:flex-row justify-between gap-5">
                             <div>
                                 <h4 class="text-btn-color font-extrabold">Price - $22.00</h4>
@@ -318,7 +314,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card flex-col lg:flex-row lg:card-side bg-base-100 shadow-xl p-6">
+                <div class="card flex-col lg:flex-row lg:card-side border divide-solid border-[#1313181a] bg-base-100 shadow-xl p-6">
                     <figure><img class="max-w-[50%] lg:max-w-full" src="Images/9.png" alt="image-1" /></figure>
                     <div class="card-body">
                         <div class="flex gap-4">
@@ -335,8 +331,8 @@
                                 <div>200</div>
                             </div>
                         </div>
-                        <h2 class="card-title font-extrabold">World Cup Flags Football</h2>
-                        <p class="font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <h2 class="card-title font-extrabold">World Cup Helmet</h2>
+                        <p class="font-medium">This is best Helmet. no duplicate helmet my shop. </p>
                         <div class="flex flex-col lg:flex-row justify-between gap-5">
                             <div>
                                 <h4 class="text-btn-color font-extrabold">Price - $22.00</h4>
@@ -347,7 +343,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card flex-col lg:flex-row lg:card-side bg-base-100 shadow-xl p-6">
+                <div class="card flex-col lg:flex-row lg:card-side border divide-solid border-[#1313181a] bg-base-100 shadow-xl p-6">
                     <figure><img class="max-w-[50%] lg:max-w-full" src="Images/10.png" alt="image-1" /></figure>
                     <div class="card-body">
                         <div class="flex gap-4">
@@ -364,8 +360,8 @@
                                 <div>200</div>
                             </div>
                         </div>
-                        <h2 class="card-title font-extrabold">World Cup Flags Football</h2>
-                        <p class="font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <h2 class="card-title font-extrabold">World Cup Football</h2>
+                        <p class="font-medium">This is best footbal for Hockey and its choose every man </p>
                         <div class="flex flex-col lg:flex-row justify-between gap-5">
                             <div>
                                 <h4 class="text-btn-color font-extrabold">Price - $22.00</h4>
@@ -381,9 +377,7 @@
         <!-- clients section -->
         <section class="mb-32">
             <h3 class="text-4xl font-extrabold mb-6 text-center">Clients Question</h3>
-            <p class="font-medium mb-6 text-center ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-                turpis placerat dolor.
-                Purus urna in sit nullam proin. </p>
+            <p class="font-medium mb-6 text-center ">What specific type of hockey equipment are you currently looking for, and are there any particular brands or features you prefer? </p>
             <div class="p-8 rounded-2xl border divide-solid border-[#1313181a]">
                 <div class="flex flex-col lg:flex-row gap-10">
                     <img src="Images/11.png" class="max-w-sm rounded-lg shadow-2xl flex-1" />
@@ -394,7 +388,7 @@
                                 Our Equipment
                             </div>
                             <div class="collapse-content">
-                                <p>hello</p>
+                                <p>The objective of a power play is for the team with more players (due to an opponent's penalty) to capitalize on the numerical advantage and score a goal.</p>
                             </div>
                         </div>
                         <div class="collapse collapse-plus ">
@@ -403,7 +397,7 @@
                                 Hockey Training
                             </div>
                             <div class="collapse-content">
-                                <p>hello</p>
+                                <p>When a player commits a foot foul in field hockey, the opposing team is awarded a free hit from the spot where the foul occurred.</p>
                             </div>
                         </div>
                         <div class="collapse collapse-plus ">
@@ -412,7 +406,7 @@
                                 Private Lessons
                             </div>
                             <div class="collapse-content">
-                                <p>hello</p>
+                                <p>A hockey team typically has six players on the ice during regular play, consisting of five skaters and one goaltender.</p>
                             </div>
                         </div>
                         <div class="collapse collapse-plus ">
@@ -421,7 +415,7 @@
                                 Ski Touring
                             </div>
                             <div class="collapse-content">
-                                <p>hello</p>
+                                <p>A hat trick in hockey refers to a player scoring three goals in a single game. It's a notable achievement celebrated by fans, sometimes marked by throwing hats onto the ice.</p>
                             </div>
                         </div>
                         <div class="collapse collapse-plus ">
@@ -430,7 +424,7 @@
                                 Booking
                             </div>
                             <div class="collapse-content">
-                                <p>hello</p>
+                                <p>The blue line in ice hockey marks the boundary between the attacking zone and the neutral zone. Players must clear the puck past the blue line before entering the offensive zone to avoid being offside.</p>
                             </div>
                         </div>
                         <div class="collapse collapse-plus ">
@@ -439,20 +433,19 @@
                                 Pricings
                             </div>
                             <div class="collapse-content">
-                                <p>hello</p>
+                                <p>A standard penalty in ice hockey usually lasts for two minutes. However, the duration can vary depending on the nature of the penalty.</p>
                             </div>
                         </div>
                     </div>
                 </div>
         </section>
         <!-- get in touch -->
-        <section class="mb-32">
+        <section class="mb-10">
             <h3 class="text-4xl font-extrabold mb-6 text-center">Get in Touch</h3>
-            <p class="font-medium mb-6 text-center ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-                turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            <p class="font-medium mb-6 text-center ">If you're looking to get in touch with the hockey community, connect with players, or find information about upcoming events, here are some suggestions </p>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div
-                    class="grid items-center gap-6 w-full h-full p-12 rounded-2xl border divide-solid border-[#1313181a]">
+                    class="grid items-center justify-center gap-6 p-12 rounded-2xl border divide-solid border-[#1313181a]">
                     <div class="p-6 bg-[#bced6d1a] rounded-2xl w-full">
                         <img class="pb-6" src="Images/Group 1171275317.png" alt="">
                         <p>Phone Number :</p>
@@ -510,7 +503,7 @@
     <!-- footer section start -->
     <footer class="p-10 bg-black">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
-            <div class="w-full flex justify-center text-center">
+            <div class="w-full flex justify-center lg:text-left text-center">
                 <div class="text-white space-y-4">
                     <h3 class="text-3xl font-extrabold">Get In Touch</h3>
                     <p>Providing reliable tech since 1992</p>
@@ -518,27 +511,29 @@
                     <p> <span><i class="fa-solid fa-phone pr-4"></i></span> (+62) 123-321-543</p>
                 </div>
             </div>
-            <div class="flex gap-6 lg:gap-28 w-full justify-center text-center">
+            <div class="flex gap-6 lg:gap-28 w-full justify-center lg:text-left text-center">
                 <div class="text-white list-none">
-                    <h2 class="font-bold">Leadership</h2>
+                    <h2 class="font-bold text-xl">Leadership</h2>
                     <li><a class="link link-hover">About us</a></li>
                     <li><a class="link link-hover">Careear</a></li>
                     <li><a class="link link-hover">News&Article</a></li>
                     <li><a class="link link-hover">Legal Notice</a></li>
                 </div>
-                <div class="text-white list-none text-center">
-                    <h2 class="font-bold">Help Center</h2>
+                <div class="text-white list-none lg:text-left text-center">
+                    <h2 class="font-bold text-xl">Help Center</h2>
                     <li><a class="link link-hover">FAQ</a></li>
                     <li><a class="link link-hover">Ticket Support</a></li>
                     <li><a class="link link-hover">Contact us</a></li>
                 </div>
             </div>
-            <div class="flex justify-center text-center">
+            <div class="flex justify-center lg:text-left text-center">
                 <div class="text-white list-none ">
-                    <h2 class="font-bold">Service</h2>
-                    <li><a class="link link-hover">Terms of use</a></li>
+                    <h2 class="text-xl font-bold">Service</h2>
+                    <li><a class="font-medium">Terms of use</a></li>
                     <li><a class="link link-hover">Privacy policy</a></li>
                     <li><a class="link link-hover">Cookie policy</a></li>
+                    <li><a class="link link-hover">Hockeys for adult</a></li>
+                    <li><a class="link link-hover">Hockeys for kids</a></li>
                 </div>
             </div>
         </div>
